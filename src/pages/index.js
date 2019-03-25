@@ -20,53 +20,77 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Tananyag"
+          title="Főoldal"
           keywords={[`javascript`, `frontend`, `bootcamp`, `react`]}
         />
         <Bio />
-        <h2>1. nap</h2>
+        <h2 style={{ marginBottom: 5, marginTop: 20 }}>1. nap</h2>
         {posts[1].map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+          const lecture = node.frontmatter.lecture || '-'
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title} + {node.frontmatter.day}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
+            <div className="row">
+              <div className="column">
+                <div className="content">
+                  <div className="card">
+                    <div className="firstinfo"><i className={node.frontmatter.icon} />
+                      <div className="profileinfo">
+                        <h1 style={{ margin: 5, color: '#d23669' }}>
+                          {title + ' ' + lecture}
+                        </h1>
+                        <h3 style={{ margin: 5 }}>{node.frontmatter.date}</h3>
+                        <p className="bio" style={{ margin: 5 }} dangerouslySetInnerHTML={{
+                          __html: node.frontmatter.description || node.excerpt,
+                        }} />
+                        <a>
+                          <Link style={{ boxShadow: `none`, color: '#d23669' }} to={node.fields.slug}>
+                              {'Elmélet'}
+                          </Link>
+                        </a>
+                        {'  |  '}            
+                        <a href={`https://www.index.hu`}>
+                          Gyakorlat
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           )
         })}
-        <h2>2. nap</h2>
+        <h2 style={{ marginBottom: 5, marginTop: 20 }}>2. nap</h2>
         {posts[2].map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+          const lecture = node.frontmatter.lecture || '-'
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title} + {node.frontmatter.day}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
+            <div className="row">
+              <div className="column">
+                <div className="content">
+                  <div className="card">
+                    <div className="firstinfo"><i className={node.frontmatter.icon} />
+                      <div className="profileinfo">
+                        <h1 style={{ margin: 5, color: '#d23669' }}>
+                          {title + ' ' + lecture}
+                        </h1>
+                        <h3 style={{ margin: 5 }}>{node.frontmatter.date}</h3>
+                        <p className="bio" style={{ margin: 5 }} dangerouslySetInnerHTML={{
+                          __html: node.frontmatter.description || node.excerpt,
+                        }} />
+                        <a>
+                          <Link style={{ boxShadow: `none`, color: '#d23669' }} to={node.fields.slug}>
+                              {'Elmélet'}
+                          </Link>
+                        </a>
+                        {'  |  '}            
+                        <a href={`https://www.index.hu`}>
+                          Gyakorlat
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           )
         })}
@@ -92,10 +116,12 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "YYYY.MM.DD")
             title
+            icon
             description
             day
+            lecture
           }
         }
       }

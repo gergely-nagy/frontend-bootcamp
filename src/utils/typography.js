@@ -1,6 +1,8 @@
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
-import './global.css';
+import './global.css'
+import './card.css'
+import './devicon.min.css'
 
 Wordpress2016.overrideThemeStyles = () => {
   return {

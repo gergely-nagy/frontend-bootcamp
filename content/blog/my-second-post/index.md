@@ -1,7 +1,9 @@
 ---
-title: My Second Post!
-date: "2015-05-06T23:46:37.121Z"
+title: CSS alapok
+date: "2015-05-28T22:40:32.169Z"
 day: 1
+lecture: 1
+icon: "devicon-css3-plain-wordmark"
 ---
 
 How do React function components differ from React classes?

@@ -1,8 +1,10 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
+title: HTML alapok
+date: "2015-04-28T22:40:32.169Z"
 day: 1
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+lecture: 2
+icon: "devicon-html5-plain-wordmark"
+description: A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C támogatásával. Az aktuális változata az 5, mely az SGML általános jelölőnyelv egy konkrét alkalmazása.
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
