@@ -25,9 +25,10 @@ Saját fejlesztőkörnyezetetben is elindíthatod a weboldalt akár 5 perc alatt
 
 2.  **Projekt indítása `develop` módban.**
 
-    A projekt fökönyvtárában kiadandó parancsok:
+    A projekt indításhoz kiadandó parancsok:
 
     ```sh
+    git clone https://github.com/gergely-nagy/frontend-bootcamp.git
     cd fronted-bootcamp/
     gatsby develop
     ```
