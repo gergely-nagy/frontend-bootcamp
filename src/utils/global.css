@@ -237,3 +237,14 @@ pre[data-line] {
   float: left;
   min-width: 100%;
 }
+
+.blog-note {
+  font-size: 0.9em;
+  border: 1px solid var(--hr);
+  border-radius: 0.75em;
+  padding: 0.75em;
+  background-color: #fefedc;
+  border: 1px solid grey;
+  border-width: thin;
+  word-break: keep-all;
+}

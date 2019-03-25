@@ -2,7 +2,7 @@
 title: CSS alapok
 date: "2015-05-28T22:40:32.169Z"
 day: 1
-lecture: 1
+lecture: 2
 icon: "devicon-css3-plain-wordmark"
 ---
 

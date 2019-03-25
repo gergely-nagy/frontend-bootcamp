@@ -3,7 +3,7 @@ title: Hello World
 date: "2015-05-01T22:12:03.284Z"
 day: 2
 lecture: 1
-icon: "devicon-html5-plain-wordmark"
+icon: ""
 ---
 
 This is my first post on my new fake blog! How exciting!

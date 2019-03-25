@@ -1,10 +1,9 @@
 ---
-title: HTML alapok
-date: "2015-04-28T22:40:32.169Z"
+title: JavaScript alapok
+date: "2018-04-25T22:40:32.169Z"
 day: 1
-lecture: 1
-icon: "devicon-html5-plain-wordmark"
-description: A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C támogatásával.
+lecture: 3
+icon: "devicon-javascript-plain"
 ---
 
 
