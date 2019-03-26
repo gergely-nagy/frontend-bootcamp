@@ -2,7 +2,7 @@
 title: Sass - CSS preprocesszor
 date: "2018-03-28T22:12:03.284Z"
 day: 4
-lecture: 3
+lecture: 2
 icon: "devicon-sass-original"
 ---
 

@@ -34,11 +34,6 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Create blog posts pages.
     const posts = result.data.allMarkdownRemark.edges;
-    // const posts = _.groupBy(result.data.allMarkdownRemark.edges, function(o) {
-    //  return o.node.frontmatter.day;
-    // })
-
-    console.log(posts)
 
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node

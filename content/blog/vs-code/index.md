@@ -1,8 +1,8 @@
 ---
 title: VS Code konfigurálás
 date: "2018-03-28T22:12:03.284Z"
-day: 4
-lecture: 2
+day: 1
+lecture: 1
 icon: "devicon-visualstudio-plain"
 ---
 
