@@ -1,6 +1,6 @@
 ---
 title: HTML alapok
-date: "2015-04-28T22:40:32.169Z"
+date: "2018-03-26T22:40:32.169Z"
 day: 1
 lecture: 1
 icon: "devicon-html5-plain-wordmark"

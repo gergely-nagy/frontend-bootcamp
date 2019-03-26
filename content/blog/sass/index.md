@@ -1,9 +1,9 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-day: 2
+title: Sass - CSS preprocesszor
+date: "2018-03-28T22:12:03.284Z"
+day: 4
 lecture: 1
-icon: ""
+icon: "devicon-sass-original"
 ---
 
 This is my first post on my new fake blog! How exciting!

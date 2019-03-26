@@ -22,6 +22,25 @@ class BlogIndex extends React.Component {
       return o.node.frontmatter.day;
     })
 
+    const sections = [
+      {
+        day: 1,
+        title: '1. nap - Webfejlesztés alapok'
+      },
+      {
+        day: 2,
+        title: '2. nap - Webfejlesztés haladó'
+      },
+      {
+        day: 3,
+        title: '3. nap - React fejlesztés'
+      },
+      {
+        day: 4,
+        title: '4. nap - Bónusz ismeretek'
+      },        
+    ];
+
     const day1post = posts[1].sort(this.comparePostsByLecture);
     const day2post = posts[2].sort(this.comparePostsByLecture);
 
@@ -32,7 +51,7 @@ class BlogIndex extends React.Component {
           keywords={[`javascript`, `frontend`, `bootcamp`, `react`]}
         />
         <Bio />
-        <h2 style={{ marginBottom: 5, marginTop: 20 }}>1. nap</h2>
+        <h2 style={{ marginBottom: 5, marginTop: 20 }}>1. nap - Webfejlesztés alapok</h2>
         {day1post.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           const lecture = node.frontmatter.lecture || '-'
@@ -67,7 +86,7 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-        <h2 style={{ marginBottom: 5, marginTop: 20 }}>2. nap</h2>
+        <h2 style={{ marginBottom: 5, marginTop: 20 }}>2. nap - Webfejlesztés haladó</h2>
         {day2post.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           const lecture = node.frontmatter.lecture || '-'
@@ -102,6 +121,7 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        <h2 style={{ marginBottom: 5, marginTop: 20 }}>3. nap - Bónusz ismeretek</h2>
       </Layout>
     )
   }
