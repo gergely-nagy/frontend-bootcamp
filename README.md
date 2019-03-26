@@ -1,5 +1,9 @@
 <h1 align="center">Frontend Bootcamp🍵</h1>
 
+<p align="center">
+  <img src="./content/assets/fb-icon.svg" alt="project-logo" height="100" width="100">
+</p>
+
 <div align="center">
   <strong>Frontend workshop HTML/CSS/JS alapoktól React/Redux-ig.</strong>
 </div>
