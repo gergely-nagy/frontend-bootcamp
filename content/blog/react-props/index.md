@@ -1,9 +1,9 @@
 ---
-title: Sass - CSS preprocesszor
+title: React prop-ok
 date: "2018-03-28T22:12:03.284Z"
-day: 4
-lecture: 3
-icon: "devicon-sass-original"
+day: 3
+lecture: 1
+icon: "devicon-react-original"
 ---
 
 This is my first post on my new fake blog! How exciting!

@@ -1,9 +1,9 @@
 ---
-title: Sass - CSS preprocesszor
+title: VS Code konfigurálás
 date: "2018-03-28T22:12:03.284Z"
 day: 4
-lecture: 3
-icon: "devicon-sass-original"
+lecture: 2
+icon: "devicon-visualstudio-plain"
 ---
 
 This is my first post on my new fake blog! How exciting!
