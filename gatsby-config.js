@@ -61,7 +61,7 @@ module.exports = {
         short_name: `Zalaszám FB`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#ffa8c5`,
         display: `minimal-ui`,
         icon: `content/assets/fb-icon.png`,
       },
