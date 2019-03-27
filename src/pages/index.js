@@ -82,7 +82,7 @@ class BlogIndex extends React.Component {
                                   </Link>
                                 </a>
                                 {'  |  '}            
-                                <a href={`https://www.index.hu`}>
+                                <a href={`https://stackblitz.com`}>
                                   Gyakorlat
                                 </a>
                               </div>

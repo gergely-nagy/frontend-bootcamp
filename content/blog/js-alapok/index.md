@@ -7,32 +7,4 @@ icon: "devicon-javascript-plain"
 ---
 
 
-A HTML (angolul: HyperText Markup Language = hiperszöveges jelölőnyelv) egy leíró nyelv (Nem programozási nyelv, csak leírónyelv), melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C (World Wide Web Consortium) támogatásával.
-Vegyünk egy példát:
-
-```html
-Helló világ!
-```
-
-Ha azt szeretnénk, hogy ez a szöveg egy külön egység legyen, bekezdéssé alakíthatjuk ha azt egy bekezdés (&lt;p>) tag-be illesztjük.
-
-```html
-<p>
-  Helló világ!
-</p>
-```
-
-<p class="blog-note"><b>Megjegyés:</b> A tag-ek HTML-ben NEM! case-sensitive-ek. Tehát akár csupa nagy vagy kis betűvel is írhatjuk őket! Páldául egy &lt;title> tag írható &lt;title>, &lt;TITLE> vagy akár &lt;TiTlE> ként is, mindegyik változat működni fog! De általános konvenció, hogy a html tag-eket csupa kis betűvel írjuk!</p>
-
-## Anatomy of an HTML element
-
-
-
-## HTML attribútumok
-
-
-## HTML dokumentum felépítése
-
-
-## Kommentezés
-
+A JavaScript programozási nyelv egy objektumalapú, prototípus alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
