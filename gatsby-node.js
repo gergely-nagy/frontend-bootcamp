@@ -21,6 +21,7 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 title
                 day
+                lecture
               }
             }
           }
@@ -33,7 +34,10 @@ exports.createPages = ({ graphql, actions }) => {
     }
 
     // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges;
+    const postsBeforeSort = JSON.parse(JSON.stringify(result.data.allMarkdownRemark.edges));
+    const posts = postsBeforeSort.sort(function (a, b) {
+      return b.node.frontmatter.day - a.node.frontmatter.day || b.node.frontmatter.lecture - a.node.frontmatter.lecture;
+    });
 
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
