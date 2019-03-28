@@ -63,7 +63,7 @@ sudo apt install ./<file>.deb
 # sudo apt-get install -f # Install dependencies
 ```
 
-A .deb csomag telepítése autómatikusan telepíti az apt repot és az aláírt kulcsot ami automatikus frissítést tesz lehetővé a rendszer csomagkezelője által.
+A .deb csomag telepítése automatikusan telepíti az apt repot és az aláírt kulcsot ami automatikus frissítést tesz lehetővé a rendszer csomagkezelője által.
 
 
 ## Ajánlott bővítmények JavaScript / React fejlesztéshez kategóriák szerint
@@ -71,6 +71,16 @@ A .deb csomag telepítése autómatikusan telepíti az apt repot és az aláírt
 
 ### Snippet
 
+A kód snippetek segítséget nyújtanak az ismétlődő kód gyorsabb írásához, ezzel rövidítve a fejlesztési időt. Mikor telepíted a VS Code-ot, az már tartalmazni fog beépített snippeteket, de ha ez nem lenne elég könnyedén megírhatod a sajátodat, vagy egyszerűen behúzhatsz egy harmadik fél által kialakított bővítményt.
+
+Pár bővítmény amit érdemes lehet minden JavaScript / React fejlesztőnek telepíteni:
+
+* [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets): Legnépszerűbb csomag több mint 1.6 millió telepítéssel. Javascript nyelvi elemek ES6-os szintaktikával, Javascript és TypeScript támogatással is.
+
+* [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets): React, Redux, Graphql és React-Native könyvtárakhoz írt kódrészletek. (Javascript és TypeScript támogatással)
+
 ## Hasznos linkek
 
 * [Setting up Visual Studio Code - https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview)
+* [JavaScript in Visual Studio Code - https://code.visualstudio.com/docs/languages/javascript](https://code.visualstudio.com/docs/languages/javascript)
+* [Working with JavaScript - https://code.visualstudio.com/docs/nodejs/working-with-javascript](https://code.visualstudio.com/docs/nodejs/working-with-javascript)

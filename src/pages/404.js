@@ -11,9 +11,9 @@ class NotFoundPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="404: Not Found" />
-        <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <SEO title="404: Az oldal nem található" />
+        <h1>Az oldal nem található</h1>
+        <p>Valaki valahol elrontott valamit. Térj vissza a főoldalra.</p>
       </Layout>
     )
   }

@@ -81,10 +81,14 @@ class BlogIndex extends React.Component {
                                       {'Elmélet'}
                                   </Link>
                                 </a>
-                                {'  |  '}            
-                                <a href={`https://stackblitz.com`}>
-                                  Gyakorlat
-                                </a>
+                                {node.frontmatter.exercise && (
+                                  <React.Fragment>
+                                    {'  |  '}
+                                    <a href={node.frontmatter.exercise}>
+                                      Gyakorlat
+                                    </a>
+                                  </React.Fragment>
+                                )}          
                               </div>
                             </div>
                           </div>
@@ -126,6 +130,7 @@ export const pageQuery = graphql`
             icon
             description
             day
+            exercise
             lecture
           }
         }
