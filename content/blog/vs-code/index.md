@@ -6,7 +6,7 @@ lecture: 1
 icon: "devicon-visualstudio-plain"
 ---
 
-Valószínűleg már rendelkezel egy alapvető szövegszerkesztővel a számítógépeden. De webes fejlesztéshez többre lehet szükséged, mint egy Notepad vagy TextEdit. 
+Valószínűleg már rendelkezel egy alapértelmezett szövegszerkesztővel a számítógépeden. De webes fejlesztéshez többre lehet szükséged, mint egy Notepad vagy TextEdit. 
 
 Célszerű használni a Visual Studio Code-ot, ami egy ingyenesen letölthető szövegszerkesztő gazdag funckiónalitással (JavaScript IntelliSense, debuggolás, kód navigálás, refaktorálás és még sok egyébb nyelvi feature-t támogat).
 
@@ -78,6 +78,62 @@ Pár bővítmény amit érdemes lehet minden JavaScript / React fejlesztőnek te
 * [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets): Legnépszerűbb csomag több mint 1.6 millió telepítéssel. Javascript nyelvi elemek ES6-os szintaktikával, Javascript és TypeScript támogatással is.
 
 * [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets): React, Redux, Graphql és React-Native könyvtárakhoz írt kódrészletek. (Javascript és TypeScript támogatással)
+
+### Linter
+
+Sokkal könnyebb megérteni egy nagy kódbázist, ha a benne található kód következetes. Akár a szóköz és tab közötti váltakozás, vagy a sor végi pontosvessző a kérdés, fontos, hogy mindenki egységes stílusban fejlessze a forráskódot egy adott projekten belül.
+
+Ugyanakkor meglehetősen gyakori, hogy a programozók elfelejtik, hogy melyik kódolási konvenciót kell használniuk. A szabályok helyes alkalmazása érdekében szabványokat kell érvényesíteni. Annak biztosítása érdekében, hogy a kódod megfeleljen a szabványnak, szükséged lesz egy linterre. Ezek a Visual Studio Code legnépszerűbb linterbővítményei:
+
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrált [ESLint](https://eslint.org) VS Code-hoz. A bővítmény a megnyitott projekt könyvtárba telepített ESLint könyvtárat használja. Ha a mappa nem rendelkezik, a bővítmény globálisan telepített verziót keres.
+
+Új mappákban szükség lehet egy ```.eslintrc``` konfigurációs fájl létrehozására is, amiben beállíthatod a szabályrendszert.
+
+* [JSHint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint): TODO
+
+* [StandardJS - JavaScript Standard Style](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs): TODO
+
+* [JSLint](https://marketplace.visualstudio.com/items?itemName=ajhyndman.jslint): TODO
+
+### Node
+
+Minden JavaScript projekt legalább egy node csomagot tartalmaz, kívéve, ha valaki szeret nehéz dolgokat csinálni. 🙂 Íme néhány VS Code bővítmény, amely segít a csomagokkal való könnyebb munkában:
+
+* [npm](): TODO
+
+* [npm Intellisense](): TODO
+
+* [Path IntelliSense](): TODO
+
+* [Node exec](): TODO
+
+* [View Node Package](): TODO
+
+* [Node Readme](): TODO
+
+* [Search node_modules](): TODO
+
+* [Import Cost](): TODO
+
+
+### Formázás
+
+
+### Böngésző támogatás
+
+
+### Tesztelés
+
+
+### Egyéb
+
+
+### Telepítés parancssorból
+
+```bash
+code --install-extension TODO
+```
+
 
 ## Hasznos linkek
 
