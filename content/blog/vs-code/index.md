@@ -118,6 +118,13 @@ Minden JavaScript projekt legalább egy node csomagot tartalmaz, kívéve, ha va
 
 ### Formázás
 
+Néha írunk olyan kódrészletet, amely nincs egy sorban a a többi kóddal. Ezek mellett biztosnak kell lennünk, hogy a zárojelek és tag-ek megfelelő formátumba legyenek megformázva. Ez a folyamat hosszas lehet a fejlesztő számára, miközben nem ad hozzá új értéket a termékhez.
+
+Szerencsére vannak bővítmények amik ezt a feladatot elvégzik helyettünk: 
+
+* [a](): TODO
+
+* [b](): TODO
 
 ### Böngésző támogatás
 
