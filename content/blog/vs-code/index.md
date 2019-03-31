@@ -122,17 +122,31 @@ Néha írunk olyan kódrészletet, amely nincs egy sorban a a többi kóddal. Ez
 
 Szerencsére vannak bővítmények amik ezt a feladatot elvégzik helyettünk: 
 
-* [a](): TODO
+* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify): TODO
 
-* [b](): TODO
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): TODO
 
 ### Böngésző támogatás
 
+* [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome): TODO
+
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): TODO
+
+* [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client): TODO
 
 ### Tesztelés
 
+* [Mocha sidebar](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar): TODO
+
+* [ES6 Mocha Snippets](https://marketplace.visualstudio.com/items?itemName=spoonscen.es6-mocha-snippets): TODO
+
+* [Node TDD](https://marketplace.visualstudio.com/items?itemName=prashaantt.node-tdd): TODO
 
 ### Egyéb
+
+* [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype): TODO
+
+* [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics): TODO
 
 
 ### Telepítés parancssorból
