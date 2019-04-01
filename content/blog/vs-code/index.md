@@ -6,12 +6,20 @@ lecture: 1
 icon: "devicon-visualstudio-plain"
 ---
 
+## Tartalom
+* [Telepítés](#telepites)
+* [Ajánlott bővítmények JavaScript / React fejlesztéshez kategóriák szerint](#bovitmenyek)
+* [Gyorsbillentyűk](#gyorsbillentyuk)
+* [Hasznos linkek](#hasznos_linkek)
+
 Valószínűleg már rendelkezel egy alapértelmezett szövegszerkesztővel a számítógépeden. De webes fejlesztéshez többre lehet szükséged, mint egy Notepad vagy TextEdit. 
 
 Célszerű használni a Visual Studio Code-ot, ami egy ingyenesen letölthető szövegszerkesztő gazdag funckiónalitással (JavaScript IntelliSense, debuggolás, kód navigálás, refaktorálás és még sok egyébb nyelvi feature-t támogat).
 
 A legtöbb szolgáltatás autómatikusan működik telepítést követően, míg más csomagokhoz alapvető konfigurálás elvégzése szüksége a legjobb felhasználói élmény eléréséhez.
 
+
+<a name='telepites'> </a>
 ## Telepítés
 
 Ajánlott rendszerkövetelmény:
@@ -65,7 +73,7 @@ sudo apt install ./<file>.deb
 
 A .deb csomag telepítése automatikusan telepíti az apt repot és az aláírt kulcsot ami automatikus frissítést tesz lehetővé a rendszer csomagkezelője által.
 
-
+<a name='bovitmenyek'> </a>
 ## Ajánlott bővítmények JavaScript / React fejlesztéshez kategóriák szerint
 
 
@@ -155,6 +163,7 @@ Szerencsére vannak bővítmények amik ezt a feladatot elvégzik helyettünk:
 code --install-extension TODO
 ```
 
+<a name='gyorsbillentyuk'> </a>
 ## Gyorsbillentyűk
 
 ```java
@@ -177,6 +186,7 @@ ALT + SHIFT + Down
 ALT + SHIFT + Right
 ```
 
+<a name='hasznos_linkek'> </a>
 ## Hasznos linkek
 
 * [Setting up Visual Studio Code - https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview)
