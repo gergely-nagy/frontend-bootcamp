@@ -149,12 +149,33 @@ Szerencsére vannak bővítmények amik ezt a feladatot elvégzik helyettünk:
 * [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics): TODO
 
 
-### Telepítés parancssorból
+### Bővítmények telepítése parancssorból
 
 ```bash
 code --install-extension TODO
 ```
 
+## Gyorsbillentyűk
+
+```java
+// Search files.
+CTRL + p
+
+// Commands.
+CTRL + Shift + p
+
+// Select duplicate values.
+CTRL + d
+
+// Move line up or down.
+ALT + Up or Down
+
+// Duplicate line.
+ALT + SHIFT + Down
+
+// Select everything between brackets.
+ALT + SHIFT + Right
+```
 
 ## Hasznos linkek
 
