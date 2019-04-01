@@ -248,3 +248,23 @@ pre[data-line] {
   border-width: thin;
   word-break: keep-all;
 }
+
+.section-divider-dots {
+  text-align: center;
+}
+
+.section-divider-dots::before {
+  margin: 0px !important;
+  padding: 0px !important;
+  --baseline-multiplier: 0.22;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: .6em;
+  content: '...';
+  display: inline-block;
+  color: rgba(0,0,0,.68);
+  position: relative;
+  text-align: center;
+  top: -30px;
+}

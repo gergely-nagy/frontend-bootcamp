@@ -7,10 +7,17 @@ icon: "devicon-visualstudio-plain"
 ---
 
 ## Tartalom
+* [Bevezetés](#bevezetes)
 * [Telepítés](#telepites)
 * [Ajánlott bővítmények JavaScript / React fejlesztéshez kategóriák szerint](#bovitmenyek)
 * [Gyorsbillentyűk](#gyorsbillentyuk)
 * [Hasznos linkek](#hasznos_linkek)
+
+<a name='bevezetes'> </a>
+
+<div class="section-divider-dots"></div>
+
+## Bevezetés
 
 Valószínűleg már rendelkezel egy alapértelmezett szövegszerkesztővel a számítógépeden. De webes fejlesztéshez többre lehet szükséged, mint egy Notepad vagy TextEdit. 
 
@@ -18,8 +25,10 @@ Célszerű használni a Visual Studio Code-ot, ami egy ingyenesen letölthető s
 
 A legtöbb szolgáltatás autómatikusan működik telepítést követően, míg más csomagokhoz alapvető konfigurálás elvégzése szüksége a legjobb felhasználói élmény eléréséhez.
 
-
 <a name='telepites'> </a>
+
+<div class="section-divider-dots"></div>
+
 ## Telepítés
 
 Ajánlott rendszerkövetelmény:
@@ -74,10 +83,13 @@ sudo apt install ./<file>.deb
 A .deb csomag telepítése automatikusan telepíti az apt repot és az aláírt kulcsot ami automatikus frissítést tesz lehetővé a rendszer csomagkezelője által.
 
 <a name='bovitmenyek'> </a>
+
+<div class="section-divider-dots"></div>
+
 ## Ajánlott bővítmények JavaScript / React fejlesztéshez kategóriák szerint
 
 
-### Snippet
+### Snippetek
 
 A kód snippetek segítséget nyújtanak az ismétlődő kód gyorsabb írásához, ezzel rövidítve a fejlesztési időt. Mikor telepíted a VS Code-ot, az már tartalmazni fog beépített snippeteket, de ha ez nem lenne elég könnyedén megírhatod a sajátodat, vagy egyszerűen behúzhatsz egy harmadik fél által kialakított bővítményt.
 
@@ -164,6 +176,9 @@ code --install-extension TODO
 ```
 
 <a name='gyorsbillentyuk'> </a>
+
+<div class="section-divider-dots"></div>
+
 ## Gyorsbillentyűk
 
 ```java
@@ -187,6 +202,9 @@ ALT + SHIFT + Right
 ```
 
 <a name='hasznos_linkek'> </a>
+
+<div class="section-divider-dots"></div>
+
 ## Hasznos linkek
 
 * [Setting up Visual Studio Code - https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview)
