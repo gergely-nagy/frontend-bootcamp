@@ -268,3 +268,7 @@ pre[data-line] {
   text-align: center;
   top: -30px;
 }
+
+h2 {
+  margin-top: 1.5rem;
+}

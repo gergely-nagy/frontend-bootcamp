@@ -72,7 +72,7 @@ class BlogIndex extends React.Component {
                                 <h1 style={{ margin: 5, color: '#d23669' }}>
                                   {title}
                                 </h1>
-                                <h3 style={{ margin: 5 }}>{lecture + '. lecke' + '  |  ' + node.frontmatter.date}</h3>
+                                <h3 style={{ margin: 5 }}>{lecture + '. lecke |  ' + '⭐' + '  |  módosítva:  ' + node.frontmatter.date}</h3>
                                 <p className="bio" style={{ margin: 5 }} dangerouslySetInnerHTML={{
                                   __html: node.frontmatter.description || node.excerpt,
                                 }} />

@@ -21,9 +21,9 @@ icon: "devicon-visualstudio-plain"
 
 Valószínűleg már rendelkezel egy alapértelmezett szövegszerkesztővel a számítógépeden. De webes fejlesztéshez többre lehet szükséged, mint egy Notepad vagy TextEdit. 
 
-Célszerű használni a Visual Studio Code-ot, ami egy ingyenesen letölthető szövegszerkesztő gazdag funckiónalitással (JavaScript IntelliSense, debuggolás, kód navigálás, refaktorálás és még sok egyébb nyelvi feature-t támogat).
+Célszerű használni a Visual Studio Code-ot, ami egy ingyenesen letölthető szövegszerkesztő alkalmazás gazdag funckiónalitással (JavaScript IntelliSense, debuggolás, kód navigálás, refaktorálás és még sok egyébb nyelvi feature-t támogat).
 
-A legtöbb szolgáltatás autómatikusan működik telepítést követően, míg más csomagokhoz alapvető konfigurálás elvégzése szüksége a legjobb felhasználói élmény eléréséhez.
+A legtöbb szolgáltatás automatikusan működik telepítést követően, míg más csomagokhoz kezdeti konfigurálás elvégzése szükséges a legjobb felhasználói élmény eléréséhez.
 
 <a name='telepites'> </a>
 
@@ -37,7 +37,7 @@ Ajánlott rendszerkövetelmény:
 - 1 GB RAM
 ```
 
-Kövesd az alábbi platformspecifikus útmutatókat:
+Telepítéshez kövesd az alábbi platformspecifikus útmutatókat:
 
 ### Windows
 
@@ -55,7 +55,7 @@ Kövesd az alábbi platformspecifikus útmutatókat:
 1. Töltsd le a [Visual Studio Code telepítőt](https://go.microsoft.com/fwlink/?LinkID=534106) macOS-re.
 2. Tartalom kibontásához kattints duplán a letöltött archívumra.
 3. Húzd a ```Visual Studio Code.app```-ot az ```Alkalmazások``` mappába, így elérhető lesz az alkalmazás ```Launchpad```-on.
-4. Rögzítheted a VS Code-ot a Dockodban ha az alkalmazás ikonon jobb klikket nyomsz, és a ```Beállítások - Megtartás a Dockban``` menüpontot választod.
+4. Rögzítheted a VS Code-ot a Dockodban ha az alkalmazásikonon jobb klikket nyomsz, és a ```Beállítások - Megtartás a Dockban``` menüpontot választod.
 
 #### Parancssorból való futtatáshoz:
 
@@ -64,7 +64,7 @@ Kövesd az alábbi platformspecifikus útmutatókat:
 
 ![shell-command](./shell-command.png)
 
-* Indítsd újra a terminált, hogy a beállítás érvényesülni tudjon,ezután terminálból bármelyik mappában állva a 'code .' parancsal tudod megnyitni a VS Code-ot, így a mappa fájljait elkezdheted szerkeszteni!
+* Indítsd újra a terminált, hogy a beállítás érvényesülni tudjon, ezután terminálból bármelyik mappában állva a 'code .' parancsal tudod megnyitni a VS Code-ot, így a mappa fájljait elkezdheted szerkeszteni!
 
 ### Linux
 
@@ -101,13 +101,13 @@ Pár bővítmény amit érdemes lehet minden JavaScript / React fejlesztőnek te
 
 ### Linter
 
-Sokkal könnyebb megérteni egy nagy kódbázist, ha a benne található kód következetes. Akár a szóköz és tab közötti váltakozás, vagy a sor végi pontosvessző a kérdés, fontos, hogy mindenki egységes stílusban fejlessze a forráskódot egy adott projekten belül.
+Sokkal könnyebb megérteni egy nagy kódbázist, ha a benne található kód következetes. Akár a szóköz és tab közötti váltakozás, vagy a sor végi pontosvesszőre gondolunk, fontos, hogy mindenki egységes stílusban fejlessze a forráskódot egy adott projekten belül.
 
-Ugyanakkor meglehetősen gyakori, hogy a programozók elfelejtik, hogy melyik kódolási konvenciót kell használniuk. A szabályok helyes alkalmazása érdekében szabványokat kell érvényesíteni. Annak biztosítása érdekében, hogy a kódod megfeleljen a szabványnak, szükséged lesz egy linterre. Ezek a Visual Studio Code legnépszerűbb linterbővítményei:
+Ugyanakkor meglehetősen gyakori, hogy a programozók elfelejtik melyik kódolási konvenciót kell használniuk. A szabályok helyes alkalmazása érdekében szabványokat kell érvényesíteni. Annak biztosítása érdekében, hogy a kódod megfeleljen a szabványnak, szükséged lesz egy linterre. Ezek a Visual Studio Code legnépszerűbb linterbővítményei:
 
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrált [ESLint](https://eslint.org) VS Code-hoz. A bővítmény a megnyitott projekt könyvtárba telepített ESLint könyvtárat használja. Ha a mappa nem rendelkezik, a bővítmény globálisan telepített verziót keres.
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrált [ESLint](https://eslint.org) VS Code-hoz. A bővítmény a megnyitott projekt könyvtárában feltelepített ESLint könyvtárat használja. Ha a mappa nem rendelkezik, a bővítmény globálisan telepített verziót keres.
 
-Új mappákban szükség lehet egy ```.eslintrc``` konfigurációs fájl létrehozására is, amiben beállíthatod a szabályrendszert.
+Új mappákban szükség lehet egy ```.eslintrc``` konfigurációs fájl létrehozására is, amiben létrehozhatod a saját szabályrendszeredet.
 
 * [JSHint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint): TODO
 
@@ -117,11 +117,15 @@ Ugyanakkor meglehetősen gyakori, hogy a programozók elfelejtik, hogy melyik k�
 
 ### Node
 
-Minden JavaScript projekt legalább egy node csomagot tartalmaz, kívéve, ha valaki szeret nehéz dolgokat csinálni. 🙂 Íme néhány VS Code bővítmény, amely segít a csomagokkal való könnyebb munkában:
+Minden JavaScript projekt legalább egy node csomagot tartalmaz, kívéve ha valaki szeret nehéz dolgokat csinálni. 🙂 Íme néhány VS Code bővítmény, amely segít a csomagokkal való könnyebb munkában:
 
-* [npm](): TODO
+* [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script): A ``` package.json``` használatával validálja a felhasznált csomagokat. Biztosítja, hogy a feltelepített csomagok megfelelő verziószámmal rendelkeznek. Kiemeli azokat a csomagokat amik nincsenek telepítve de a ```package.json``` már tartalmaz és a nem települt modulokra is figyelmeztetést ad a fejlesztőnek.
 
-* [npm Intellisense](): TODO
+![npm-validation](./npm-validation.png)
+
+* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): Kiegészíti az npm modulok nevét az [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) parancsokban.
+
+![auto-complete](./auto-complete.gif)
 
 * [Path IntelliSense](): TODO
 
@@ -138,7 +142,7 @@ Minden JavaScript projekt legalább egy node csomagot tartalmaz, kívéve, ha va
 
 ### Formázás
 
-Néha írunk olyan kódrészletet, amely nincs egy sorban a a többi kóddal. Ezek mellett biztosnak kell lennünk, hogy a zárojelek és tag-ek megfelelő formátumba legyenek megformázva. Ez a folyamat hosszas lehet a fejlesztő számára, miközben nem ad hozzá új értéket a termékhez.
+Néha írunk olyan kódrészletet, amely nincs egy sorban a többi sorral. Ezek mellett biztosnak kell lennünk, hogy a zárojelek és tag-ek megfelelő formátumba legyenek megformázva. Ez a folyamat hosszas lehet a fejlesztő számára, miközben nem ad hozzá új értéket a termékhez.
 
 Szerencsére vannak bővítmények amik ezt a feladatot elvégzik helyettünk: 
 
