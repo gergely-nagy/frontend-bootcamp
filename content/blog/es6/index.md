@@ -4,6 +4,7 @@ date: "2018-03-28T22:12:03.284Z"
 day: 2
 lecture: 1
 icon: "devicon-javascript-plain"
+difficulty: 3
 ---
 
 Az ECMAScript programozási nyelv, melyet főként webes alkalmazásokra fejlesztettek ki. A nyelv leírása ECMA szabvány.

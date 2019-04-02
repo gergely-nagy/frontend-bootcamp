@@ -272,3 +272,11 @@ pre[data-line] {
 h2 {
   margin-top: 1.5rem;
 }
+
+.last-changed {
+  color: #a7a7a7;
+  font-style: italic;
+  margin: 0px;
+  margin-left: 5px;
+  font-size: 0.9em;
+}

@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import _ from "lodash"
 
+import { formatDifficulty } from '../utils/helpers';
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -72,7 +73,8 @@ class BlogIndex extends React.Component {
                                 <h1 style={{ margin: 5, color: '#d23669' }}>
                                   {title}
                                 </h1>
-                                <h3 style={{ margin: 5 }}>{lecture + '. lecke |  ' + '⭐' + '  |  módosítva:  ' + node.frontmatter.date}</h3>
+                                <h3 style={{ margin: '5px 0px 0px 5px', fontStyle: 'normal' }}>{lecture + '. lecke |  nehézség: ' + formatDifficulty(node.frontmatter.difficulty)}</h3>
+                                <p className="last-changed">{'módosítva: '  + node.frontmatter.date}</p>
                                 <p className="bio" style={{ margin: 5 }} dangerouslySetInnerHTML={{
                                   __html: node.frontmatter.description || node.excerpt,
                                 }} />
@@ -129,6 +131,7 @@ export const pageQuery = graphql`
             title
             icon
             description
+            difficulty
             day
             exercise
             lecture

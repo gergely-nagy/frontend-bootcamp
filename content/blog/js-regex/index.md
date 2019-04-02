@@ -4,6 +4,7 @@ date: "2018-03-24T22:40:32.169Z"
 day: 2
 lecture: 2
 icon: "devicon-javascript-plain"
+difficulty: 2
 ---
 
 

@@ -6,6 +6,7 @@ lecture: 2
 icon: "devicon-html5-plain-wordmark"
 exercise: "https://stackblitz.com"
 description: A HTML egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C támogatásával.
+difficulty: 2
 ---
 
 

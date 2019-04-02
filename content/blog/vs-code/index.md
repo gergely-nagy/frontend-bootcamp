@@ -4,6 +4,7 @@ date: "2018-03-28T22:12:03.284Z"
 day: 1
 lecture: 1
 icon: "devicon-visualstudio-plain"
+difficulty: 1
 ---
 
 ## Tartalom
