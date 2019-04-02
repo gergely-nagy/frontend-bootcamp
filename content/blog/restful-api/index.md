@@ -5,6 +5,7 @@ day: 4
 lecture: 3
 icon: ""
 difficulty: 2
+draft: true
 ---
 
 The key principles of REST involve separating your API into logical resources. These resources are manipulated using HTTP requests where each method has a specific meaning.

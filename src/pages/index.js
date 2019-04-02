@@ -68,6 +68,13 @@ class BlogIndex extends React.Component {
                       <div className="column">
                         <div className="content">
                           <div className="card">
+                            {node.frontmatter.draft && (
+                              <div class="ribbon ribbon-top-right">
+                                <span>
+                                  Hamarosan
+                                </span>
+                              </div>
+                            )} 
                             <div className="firstinfo"><i className={node.frontmatter.icon} />
                               <div className="profileinfo">
                                 <h1 style={{ margin: 5, color: '#d23669' }}>
@@ -78,19 +85,23 @@ class BlogIndex extends React.Component {
                                 <p className="bio" style={{ margin: 5 }} dangerouslySetInnerHTML={{
                                   __html: node.frontmatter.description || node.excerpt,
                                 }} />
-                                <a>
-                                  <Link style={{ boxShadow: `none`, color: '#d23669' }} to={node.fields.slug}>
-                                      {'Elmélet'}
-                                  </Link>
-                                </a>
-                                {node.frontmatter.exercise && (
+                                {!node.frontmatter.draft && (
                                   <React.Fragment>
-                                    {'  |  '}
-                                    <a href={node.frontmatter.exercise}>
-                                      Gyakorlat
+                                    <a>
+                                      <Link style={{ boxShadow: `none`, color: '#d23669' }} to={node.fields.slug}>
+                                          {'Elmélet'}
+                                      </Link>
                                     </a>
+                                  {node.frontmatter.exercise && (
+                                    <React.Fragment>
+                                      {'  |  '}
+                                      <a href={node.frontmatter.exercise}>
+                                        Gyakorlat
+                                      </a>
+                                    </React.Fragment>
+                                  )}
                                   </React.Fragment>
-                                )}          
+                                )} 
                               </div>
                             </div>
                           </div>
@@ -128,6 +139,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "YYYY.MM.DD")
+            draft
             title
             icon
             description

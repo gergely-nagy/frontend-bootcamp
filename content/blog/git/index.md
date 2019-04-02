@@ -5,6 +5,7 @@ day: 4
 lecture: 1
 icon: "devicon-git-plain"
 difficulty: 2
+draft: true
 ---
 
 A Git egy nyílt forráskódú, elosztott verziókezelő szoftver, vagy másképpen egy szoftverforráskód-kezelő rendszer, amely a sebességre helyezi a hangsúlyt.

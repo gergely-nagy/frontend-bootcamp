@@ -5,6 +5,7 @@ day: 2
 lecture: 2
 icon: "devicon-javascript-plain"
 difficulty: 2
+draft: true
 ---
 
 

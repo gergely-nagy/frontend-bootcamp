@@ -5,6 +5,7 @@ day: 3
 lecture: 1
 icon: "devicon-react-original"
 difficulty: 3
+draft: true
 ---
 
 React (also known as React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
