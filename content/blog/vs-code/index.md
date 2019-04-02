@@ -110,25 +110,23 @@ Ugyanakkor meglehetősen gyakori, hogy a programozók elfelejtik melyik kódolá
 
 Új mappákban szükség lehet egy ```.eslintrc``` konfigurációs fájl létrehozására is, amiben létrehozhatod a saját szabályrendszeredet.
 
-* [JSHint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint): TODO
+* [StandardJS - JavaScript Standard Style](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs): VSCode bővítmény a [JavaScript Standard Style](https://standardjs.com/) guide integrálásához a fejlesztőkörnyezetedbe.
 
-* [StandardJS - JavaScript Standard Style](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs): TODO
-
-* [JSLint](https://marketplace.visualstudio.com/items?itemName=ajhyndman.jslint): TODO
+* [JSLint](https://marketplace.visualstudio.com/items?itemName=ajhyndman.jslint): Linter bővítmény [JSLint](http://jslint.com/help.html)-hez.
 
 ### Node
 
 Minden JavaScript projekt legalább egy node csomagot tartalmaz, kívéve ha valaki szeret nehéz dolgokat csinálni. 🙂 Íme néhány VS Code bővítmény, amely segít a csomagokkal való könnyebb munkában:
 
-* [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script): A ``` package.json``` használatával validálja a felhasznált csomagokat. Biztosítja, hogy a feltelepített csomagok megfelelő verziószámmal rendelkeznek. Kiemeli azokat a csomagokat amik nincsenek telepítve de a ```package.json``` már tartalmaz és a nem települt modulokra is figyelmeztetést ad a fejlesztőnek.
+* [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script): A ``` package.json``` használatával validálja a felhasznált csomagokat. Biztosítja, hogy a feltelepített csomagok megfelelő verziószámmal rendelkezzenek. Kiemeli azokat a csomagokat amik nincsenek telepítve de a ```package.json``` már tartalmaz és a nem települt modulokra is figyelmeztetést ad a fejlesztőnek.
 
 ![npm-validation](./npm-validation.png)
 
-* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): Kiegészíti az npm modulok nevét az [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) parancsokban.
+* [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense): Kiegészíti az npm modulok nevét az [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) utasításokban.
 
 ![auto-complete](./auto-complete.gif)
 
-* [Path IntelliSense](): TODO
+* [Path IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Visual Studio Code bővítmény ami segít kiegészíteni a forrásfájlok neveit.
 
 * [Node exec](): TODO
 
@@ -215,3 +213,4 @@ ALT + SHIFT + Right
 * [Setting up Visual Studio Code - https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview)
 * [JavaScript in Visual Studio Code - https://code.visualstudio.com/docs/languages/javascript](https://code.visualstudio.com/docs/languages/javascript)
 * [Working with JavaScript - https://code.visualstudio.com/docs/nodejs/working-with-javascript](https://code.visualstudio.com/docs/nodejs/working-with-javascript)
+* [VS Code marketplace - https://marketplace.visualstudio.com/vscode](https://marketplace.visualstudio.com/vscode)
