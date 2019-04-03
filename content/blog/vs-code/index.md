@@ -89,7 +89,6 @@ A .deb csomag telepítése automatikusan telepíti az apt repot és az aláírt 
 
 ## Ajánlott bővítmények JavaScript / React fejlesztéshez kategóriák szerint
 
-
 ### Snippetek
 
 A kód snippetek segítséget nyújtanak az ismétlődő kód gyorsabb írásához, ezzel rövidítve a fejlesztési időt. Mikor telepíted a VS Code-ot, az már tartalmazni fog beépített snippeteket, de ha ez nem lenne elég könnyedén megírhatod a sajátodat, vagy egyszerűen behúzhatsz egy harmadik fél által kialakított bővítményt.
@@ -128,54 +127,59 @@ Minden JavaScript projekt legalább egy node csomagot tartalmaz, kívéve ha val
 
 * [Path IntelliSense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Visual Studio Code bővítmény ami segít kiegészíteni a forrásfájlok neveit.
 
-* [Node exec](): TODO
+* [Node Readme](https://marketplace.visualstudio.com/items?itemName=bengreenier.vscode-node-readme): Nyisd meg a beimportált csomagod dokumentációját a fejlesztői környezetedben.
 
-* [View Node Package](): TODO
+![example-import](./example-import.gif)
 
-* [Node Readme](): TODO
+* [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost): Megmutatja az importált npm csomag méretét a szerkesztőben. 
 
-* [Search node_modules](): TODO
-
-* [Import Cost](): TODO
+![import-cost](./import-cost.gif)
 
 
 ### Formázás
 
-Néha írunk olyan kódrészletet, amely nincs egy sorban a többi sorral. Ezek mellett biztosnak kell lennünk, hogy a zárojelek és tag-ek megfelelő formátumba legyenek megformázva. Ez a folyamat hosszas lehet a fejlesztő számára, miközben nem ad hozzá új értéket a termékhez.
+Néha írunk olyan kódrészletet, amely nincs egy sorban a többivel. Ezek mellett biztosnak kell lennünk, hogy a zárojelek és tag-ek megfelelő formátumba legyenek megformázva. Ez a folyamat hosszas lehet a fejlesztő számára, miközben nem ad hozzá új értéket a termékhez.
 
-Szerencsére vannak bővítmények amik ezt a feladatot elvégzik helyettünk: 
+De szerencsére vannak bővítmények amik ezt a feladatot elvégzik helyettünk: 
 
-* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify): TODO
+* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify): Kódformázás JavaScript, JSON, CSS, Sass, és HTML támogatással. Helyes működéshez a ```.jsbeautifyrc``` fájl [konfigurálása](https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md) szükséges.
 
-* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): TODO
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Kódformázás JavaScript, TypeScript és CSS támogatással. Több mint 2 millió telepítéssel.
 
 ### Böngésző támogatás
 
-* [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome): TODO
+Ha nem csak terminálban futó alkalmazásokat szeretnénk írni, elkerülhetetlen, hogy egy böngészőben futassuk forráskódunkat. Ezt a folyamatot gyorsíthatjuk fel a következő kiegészítőkkel:
 
-* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): TODO
+* [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome): Könnyedén debuggolhatod JavaScript fájljaidat egy Google Chrome böngészőben ennek a bővítmény segítségével, breakpoint támogatással.
 
-* [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client): TODO
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): Helyi fejlesztői szerver live reload támogatással statikus fájlok kiszolgálására.
+
+* [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client): Ahelyett hogy böngészőt vagy CURL-t használnál a REST API teszteléséhez, telepítheted ezt az eszközt amivel ezt a folyamatot egyszerűen elvégezheted a szövegszekesztőben is.
 
 ### Tesztelés
 
-* [Mocha sidebar](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar): TODO
+Teszt esetek írása fontos eleme a szoftverfejlesztésnek, főleg ha a projektünk már production környezetben fut. Pár bővítmény JS fájljaink teszteléséhez:
 
-* [ES6 Mocha Snippets](https://marketplace.visualstudio.com/items?itemName=spoonscen.es6-mocha-snippets): TODO
+* [Mocha sidebar](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar): [Mocha.js](https://mochajs.org/)-el való tesztelés támogatása. Dekorátorokkal törénő hibajelzés.
 
-* [Node TDD](https://marketplace.visualstudio.com/items?itemName=prashaantt.node-tdd): TODO
+* [ES6 Mocha Snippets](https://marketplace.visualstudio.com/items?itemName=spoonscen.es6-mocha-snippets): ES6-os snippetek [Mocha.js](https://mochajs.org/)-hez.
+
+* [Node TDD](https://marketplace.visualstudio.com/items?itemName=prashaantt.node-tdd): Tesztvezérelt fejlesztést segítő csomag.
 
 ### Egyéb
 
-* [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype): TODO
+* [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype): JSON deszerializálás. Támogatott nyelvek:
+TypeScript, Python, Go, Ruby, C#, Java, Swift, Rust, Kotlin, C++, Flow, Objective-C, JavaScript, Elm, és JSON Schema.
 
-* [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics): TODO
+* [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics): Feltérképezi a JavaScript és TypeScript metódusaidnak a komplexitását.
 
 
 ### Bővítmények telepítése parancssorból
 
+Ha minden eddig megemlített bővítményt telepítenél, másold be a következő utasítást a parancssorba:
+
 ```bash
-code --install-extension TODO
+code --install-extension xabikos.JavaScriptSnippets;code --install-extension dsznajder.es7-react-js-snippets;code --install-extension dbaeumer.vscode-eslint;code --install-extension chenxsan.vscode-standardjs;code --install-extension ajhyndman.jslint;code --install-extension eg2.vscode-npm-script;code --install-extension christian-kohler.npm-intellisense;code --install-extension christian-kohler.path-intellisense;code --install-extension bengreenier.vscode-node-readme;code --install-extension wix.vscode-import-cost;code --install-extension HookyQR.beautify;code --install-extension esbenp.prettier-vscode;code --install-extension msjsdiag.debugger-for-chrome;code --install-extension ritwickdey.LiveServer;code --install-extension humao.rest-client;code --install-extension maty.vscode-mocha-sidebar;code --install-extension spoonscen.es6-mocha-snippets;code --install-extension prashaantt.node-tdd;code --install-extension quicktype.quicktype;code --install-extension kisstkondoros.vscode-codemetrics;
 ```
 
 <a name='gyorsbillentyuk'> </a>
@@ -185,22 +189,22 @@ code --install-extension TODO
 ## Gyorsbillentyűk
 
 ```java
-// Search files.
+// Fájlok közötti keresés.
 CTRL + p
 
-// Commands.
+// VS Code-ban használható utasítások keresése.
 CTRL + Shift + p
 
-// Select duplicate values.
+// Duplikált értékek kijelölése.
 CTRL + d
 
-// Move line up or down.
+// Egy sor fel vagy le mozgatása.
 ALT + Up or Down
 
-// Duplicate line.
+// Sor duplázása.
 ALT + SHIFT + Down
 
-// Select everything between brackets.
+// Mindent kiejlölés kapcsos zárójelek között.
 ALT + SHIFT + Right
 ```
 
