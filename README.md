@@ -26,6 +26,7 @@
 | React alkalmazás debuggolás VS Code-ban | :soon: |
 | Git használata | :hammer_and_wrench: |
 | Sass - CSS preprocesszor | :soon: |
+| RESTful api tervezés | :soon: |
 
 ## 🚀 Projekt indítása saját gépen
 
