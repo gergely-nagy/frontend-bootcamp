@@ -10,7 +10,22 @@
 
 <br />
 
+
+## Státusz
 > 🚨🚨 Ez a projekt fejlesztés alatt van. 🚨🚨
+
+| Page | Status |
+| ------ | ------ | 
+| VS Code konfigurálás | :white_check_mark: |
+| HTML alapok | :hammer_and_wrench: |
+| CSS alapok | :soon: |
+| JavaScript alapok | :soon: |
+| ES6-os újdonságok | :soon: |
+| JS reguláris kifejezések | :soon: |
+| React prop-ok | :soon: |
+| React alkalmazás debuggolás VS Code-ban | :soon: |
+| Git használata | :hammer_and_wrench: |
+| Sass - CSS preprocesszor | :soon: |
 
 ## 🚀 Projekt indítása saját gépen
 
