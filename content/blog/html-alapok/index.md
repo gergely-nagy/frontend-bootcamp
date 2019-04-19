@@ -27,9 +27,14 @@ Ha azt szeretnénk, hogy ez a szöveg egy külön egység legyen, bekezdéssé a
 
 <p class="blog-note"><b>Megjegyés:</b> A tag-ek HTML-ben NEM! case-sensitive-ek. Tehát akár csupa nagy vagy kis betűvel is írhatjuk őket! Páldául egy &lt;title> tag írható &lt;title>, &lt;TITLE> vagy akár &lt;TiTlE> ként is, mindegyik változat működni fog! De általános konvenció, hogy a html tag-eket csupa kis betűvel írjuk!</p>
 
-## Anatomy of an HTML element
+<div class="section-divider-dots"></div>
 
+## HTML elemek felépítése
 
+ 
+Egy HTML elem fő részei:
+
+![html-elem](./html-elem.png)
 
 ## HTML attribútumok
 
