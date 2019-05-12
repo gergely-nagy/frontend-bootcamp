@@ -77,7 +77,10 @@ function SEO({ description, lang, meta, keywords, title }) {
             : []
         )
         .concat(meta)}
-    />
+    >
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <script dangerouslySetInnerHTML={{__html: '  (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7232891128764501",enable_page_level_ads: true});'}}></script>
+    </Helmet>
   )
 }
 
